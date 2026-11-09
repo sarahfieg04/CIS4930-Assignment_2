@@ -120,9 +120,6 @@ const MapView = {
         setState({ picked, focus: picked.size ? id : null });
       });
  
-    svg.call(d3.zoom().scaleExtent([1, 12])
-      .on("zoom", e => this.g.attr("transform", e.transform)));
- 
     this.lastMetric = null;
   },
  
