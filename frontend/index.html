@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Where does a data center's footprint land?</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Where does a data center's footprint land?</h1>
+    <select id="metric-select"></select>
+    <button id="reset-btn">Reset all</button>
+    <div id="filter-bar"></div>
+  </header>
+  <main class="grid">
+    <section class="card" style="grid-area: map"><h2>A · Map</h2><div id="map-view"></div><div id="map-legend"></div></section>
+    <section class="card" style="grid-area: scatter"><h2>B · Siting tradeoff</h2><div id="scatter-view"></div></section>
+    <section class="card" style="grid-area: region"><h2>C · By climate region</h2><div id="region-view"></div></section>
+    <section class="card" style="grid-area: fuel"><h2>D · By fuel</h2><div id="fuel-view"></div></section>
+    <section class="card" style="grid-area: detail"><h2>Details</h2><div id="detail-view"></div></section>
+  </main>
+  <div id="tooltip" class="tooltip" hidden></div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
