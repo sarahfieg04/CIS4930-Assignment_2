@@ -6,7 +6,7 @@ An interactive dashboard of the water and carbon footprints of U.S. data centers
 **Question:** Is the cleanest place to plug in a server also a place where clean water is, and where
 do the footprints of today's data centers actually land?
 
-The site runs on **localhost** (it is not deployed). Use the commands below to start it.
+The site runs on **localhost**. Use the commands below to start it.
 
 ## Get the code
 
@@ -134,7 +134,7 @@ about 75% of the water footprint indirect).
 - **Scatter (B):** each dot is a subbasin, placed by the carbon and water-scarcity footprint per MWh of a
   hypothetical new data center there. Drag a rectangle to brush; click empty space to clear.
 - **Region bars (C)** and **Fuel bars (D):** click a bar to filter every other view; click again to clear.
-- **Filter chips** under the title show every active filter; × removes one. **Reset all** clears everything.
+- **Filter chips** under the title show every active filter; x removes one. **Reset all** clears everything.
 
 ## Data source
 
