@@ -27,10 +27,10 @@ CIS4930-Assignment_2/
 ├── README.md
 ├── .gitignore               # keeps raw/, and notebook checkpoints out of Git
 ├── data_prep/
-│   └── prepare_data.py      # one-time cleaning script : raw files -> backend/data/
+│   └── read_data.py      # one-time cleaning script : raw files -> backend/data/
 ├── backend/
 │   ├── main.py              # FastAPI routes
-│   ├── store.py             # loads the data once
+│   ├── store_data.py             # loads the data once
 │   ├── requirements.txt
 │   └── data/                # cleaned data 
 │       ├── subbasins.csv
